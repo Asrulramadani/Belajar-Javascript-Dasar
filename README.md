@@ -1,1 +1,1 @@
-# Belajara
+# Belajar
