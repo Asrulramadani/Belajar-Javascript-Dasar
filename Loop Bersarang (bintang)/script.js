@@ -61,6 +61,35 @@ function bintang(n) {
 }
 
 
+// Segitiga siku-siku terbalik rata kanan
+
+let s = '';
+
+const looping = function(n) {
+
+    // Menentukan jumlah baris
+    for(let i = 1; i <= n; i++) {
+
+        // Membuat spasi
+        for(let j = 1; j < i; j++) {
+            s += ' ';
+        }
+
+        // Membuat bitang
+        for(let k = i; k <= n; k++) {
+            s += '*';
+        }
+
+        // Menanmbahkan baris baru
+        s += '\n';
+    }
+
+    // Mencetak hasil
+    console.log(s);
+}
+
+
+
 
 // Loop segitiga Sama Sisi
 let s = '';
