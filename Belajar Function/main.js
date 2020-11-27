@@ -37,6 +37,42 @@
 
 
 
+// === Rekursif Function ===
+// Function yang memanggil dirinya sendiri dan akan berhenti pada keadaan tertentu
+// mirip dengan Looping For
+// Rekursif ini digunakan juga sebagai pengganti perulangan bagi bahasa pemrograman yang tidak memiliki perulangan
+
+// ==== CONTOH : ====
+
+    // function loop(n) {
+
+    //     if(n === 0) {
+    //         return;
+    //     }
+    //     console.log(n);
+
+    //     return loop(n-1);
+    // }
+
+    // loop(10);
+
+
+    // ** Faktorial **
+
+    // function faktorial(n) {
+    //     if(n === 0) return 1;
+
+    //     return n * faktorial(n-1);
+    // }
+
+    // const hasil = faktorial(5);
+    // console.log(hasil);
+
+    // => Output = 120
+
+
+
+
 
 
 
