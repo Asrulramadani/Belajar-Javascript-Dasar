@@ -66,7 +66,7 @@
     // }
 
     // const hasil = faktorial(5);
-    // console.log(hasil);
+    // alert(hasil);
 
     // => Output = 120
 

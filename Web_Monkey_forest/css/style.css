@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'VAGRounded';
+  src: url("../asset/VAGRoundedStd-Bold_0.otf") format("OpenType");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VAGRounded', Arial, Helvetica, sans-serif;
+}
+
+section {
+  max-width: 1200px;
+  height: auto;
+  padding: 30px 50px;
+  margin: auto;
+  background-image: url(../asset/bg.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: top right;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+}
+
+section nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section nav .logo {
+  font-size: 1.8rem;
+  color: #a1da64;
+}
+
+section nav ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section nav ul li {
+  list-style-type: none;
+}
+
+section nav ul li a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+}
+
+section .content {
+  width: 40%;
+  margin-top: 130px;
+}
+
+section .content h1 {
+  font-size: 3.5rem;
+  line-height: 55px;
+  padding-bottom: 1rem;
+}
+
+section .content p {
+  font-weight: 400;
+  color: #4b4b4b;
+  padding-bottom: 2rem;
+}
+
+section .content button {
+  padding: 10px 30px;
+  background-image: linear-gradient(to right, #a1da64, #6f9e3c);
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .content button img {
+  width: 25px;
+  margin-left: 5px;
+}

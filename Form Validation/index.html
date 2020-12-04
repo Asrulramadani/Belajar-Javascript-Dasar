@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Form validations</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="index2.html" onsubmit="return validationForm()">
+            <input type="text" id="username" placeholder="username" >
+            <input type="password" id="password" placeholder="password" >
+            <button type="submit">kirim</button>
+        </form>
+    </div>
+    
+
+    <script>
+     
+     function validationForm() {
+         const username = document.getElementById('username').value;
+         const password = document.getElementById('password').value;
+
+         if (username == "" && password == "") {
+             alert('Username dan Password kosong');
+             return false;
+         }
+         else if(username == "") {
+            alert('Username masih kosong');
+            return false;
+         } 
+         else if(password == ""){
+            alert('Password masih kosong');
+            return false;
+         }
+     }
+
+
+    </script>
+</body>
+</html>
